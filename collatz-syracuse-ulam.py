@@ -1,4 +1,9 @@
-import platform
+import platform, os
+# Collatz-syracuse-ulam problem:
+# Se o numero for par divida por dois
+# se for impar, multiplique por tres e some um
+# quando o numero chegar a "1", pare
+# os 5 ultimos resultados sempre serao: 16, 8, 4, 2, 1
 uos = platform.uname()[0]
 if uos == 'Linux':
 	os.system('clear')
